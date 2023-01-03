@@ -3,13 +3,13 @@ As a fan of `#sheepsofmastodon`, I have decided to name this ActivityPub client 
 ### Usage
 
 ```
-python sheep.py DOMAIN USERNAME
+python sheep.py USERNAME
 ```
 
 Example
 
 ```
-python sheep.py mas.to helgek@mas.to --verbose
+python sheep.py helgek@mas.to --verbose
 ```
 
 ### Features
