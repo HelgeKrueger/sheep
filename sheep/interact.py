@@ -17,9 +17,12 @@ def interact_with_outbox(content):
         if answer == "q":
             return
 
-        idx = int(answer)
-
-        pprint(content[idx]["object"])
+        if answer.startswith("r"):
+            idx = int(answer[1:])
+            pprint(content[idx])
+        else:
+            idx = int(answer)
+            pprint(content[idx]["object"])
 
 
 def display_table(content):
